@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@layout/fundo_claro"
+>
+
+	<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	
+		<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"	
+		android:gravity="center_horizontal"
+		android:orientation="vertical"
+		android:padding="@dimen/BordaGeral"
+		>
+		    <TextView 
+		    android:text="@string/geral_NomeDoSistema" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:textSize="@dimen/Titulo"
+		    android:paddingTop="5dp"
+		    android:paddingBottom="5dp"
+		    android:textColor="@color/LayoutClaro_TextoSemDestaque"></TextView>
+	
+		    <TextView
+		    android:id="@+id/lblVersao" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:textSize="@dimen/SubTitulo"
+		    android:paddingBottom="10dp"
+		    android:textColor="@color/LayoutClaro_TextoSemDestaque"></TextView>
+		    
+		    <ImageView 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/logotipo192x192"></ImageView>
+		    
+		    <TextView 
+		    android:text="@string/layoutSobre_lblMensagemDeBoasVindas" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:textSize="@dimen/SubTitulo"
+		    android:paddingTop="10dp"
+		    android:paddingBottom="5dp"
+		    android:paddingLeft="20dp"
+		    android:paddingRight="20dp"
+		    android:textColor="@color/LayoutClaro_Titulo"
+		    android:textStyle="bold"></TextView>
+		    
+		    <Button 
+		    android:id="@+id/btnProsseguir"
+		    android:layout_width="130dp"
+		    android:layout_height="wrap_content"></Button>
+		    
+		    <TextView 
+		    android:text="@string/geral_EmailDoDesenvolvedor" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal"
+		    android:textSize="@dimen/TextoPequeno"
+		    android:paddingTop="20dp"
+		    android:paddingBottom="20dp"
+		    android:textColor="@color/LayoutClaro_TextoSemDestaque"></TextView>
+		    
+		    <LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:paddingLeft="25dp"
+			android:paddingRight="25dp"
+			>
+				<TextView 
+			    android:text="@string/layoutSobre_lblDescritivoDaVersao" 
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"
+			    android:textSize="@dimen/Texto"
+			    android:textColor="@color/LayoutClaro_Titulo"></TextView>
+			    			    
+			</LinearLayout>
+		    
+		    <ImageView 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/desenvolvedor"
+			android:paddingTop="30dp"
+		    android:paddingBottom="30dp"></ImageView>
+
+			<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			>
+
+				<CheckBox
+				android:id="@+id/chkExibirAoIniciar"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/layoutSobre_chkExibirAoIniciar"
+				android:textColor="@color/LayoutClaro_TextoSemDestaque"
+				android:textSize="@dimen/TextoPequeno"				
+				></CheckBox>			
+
+			</LinearLayout>
+
+	    </LinearLayout>
+    </ScrollView>
+</AbsoluteLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@layout/fundo_escuro"
+>
+	<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>	
+		<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:padding="@dimen/BordaGeral"
+		android:gravity="center_horizontal">
+
+		    <LinearLayout 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_marginBottom="32dp">
+		        <ImageView 
+		        android:layout_width="wrap_content" 
+		        android:layout_height="fill_parent" 
+		        android:src="@drawable/icone_erro"
+		        android:paddingRight="15dp"></ImageView>
+		    	
+			    <TextView 
+			    android:text="@string/layoutErro_lblTitulo" 
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"
+			    android:textSize="@dimen/Titulo"
+			    android:textColor="@color/LayoutEscuro_Titulo"
+			    android:textStyle="bold"
+			    ></TextView>			    
+		    </LinearLayout>
+		    
+		    <LinearLayout 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:gravity="center"
+		    android:layout_marginBottom="10dp"
+		    android:paddingTop="10dp"
+		    android:paddingBottom="10dp"
+		    android:paddingLeft="15dp"
+		    android:paddingRight="15dp"
+		    android:background="@layout/fundo_secao">
+		    
+		    	<TextView 
+		    	android:id="@+id/lblMensagem"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"
+			    android:textSize="@dimen/Texto"
+			    android:textColor="@color/LayoutEscuro_Texto"
+			    android:textStyle="bold"
+			    android:gravity="center"
+			    android:padding="10dp"
+			    ></TextView>
+
+		    </LinearLayout>
+
+		    <LinearLayout 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:gravity="center_horizontal"
+		    android:layout_marginTop="30dp">
+
+			    <Button 
+			    android:id="@+id/btnVoltar"
+			    android:text="@string/comum_btnVoltar"
+			    android:layout_width="100dp"
+			    android:layout_height="wrap_content"></Button>		    
+
+		    </LinearLayout>		    
+
+	    	<TextView 
+	    	android:text="@string/layoutErro_lblPressioneHomeParaSair"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:textSize="@dimen/TextoPequeno"
+		    android:textColor="@color/LayoutEscuro_TextoSemDestaque"
+		    android:gravity="center"
+		    android:layout_marginTop="15dp"
+		    ></TextView>
+
+		</LinearLayout>	
+	</ScrollView>
+</AbsoluteLayout>

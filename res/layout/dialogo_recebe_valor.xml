@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="10dp"
+android:layout_margin="15dp"
+android:background="@layout/fundo_dialogo">
+
+	<TextView 
+	android:id="@+id/lblMensagem"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:textSize="@dimen/Texto" />
+
+	<EditText
+	android:id="@+id/txtValor"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp" />
+
+	<LinearLayout 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+    
+		<Button 
+		android:id="@+id/btnOk" 
+		android:text="@string/comum_btnOk"
+		android:layout_width="100dp"
+		android:layout_height="wrap_content" />
+	
+		<Button 
+		android:id="@+id/btnCancelar" 
+		android:text="@string/comum_btnCancelar"
+		android:layout_width="100dp"
+		android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+</LinearLayout>

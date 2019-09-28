@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="geral_NomeDoSistema">Discursation Tabajara</string>
+	<string name="geral_EmailDoDesenvolvedor">discursation@cabral.srv.br</string>
+
+	<string name="comum_lblSelecioneACor">Selecione um cor</string>
+	<string name="comum_lblSelecioneACorDica">Clique no centro para selecionar.</string>
+	<string name="comum_btnOk">Ok</string>
+	<string name="comum_btnSim">Sim</string>
+	<string name="comum_btnNao">Nao</string>
+	<string name="comum_btnCancelar">Cancelar</string>
+	<string name="comum_btnVoltar">Voltar</string>
+	<string name="comum_btnFechar">Fechar</string>
+	<string name="comum_msgAlerta">Atenção!</string>
+	<string name="comum_msgPergunta">Prosseguir?</string>
+
+	<string name="menu_Principal_Sobre">Sobre</string>
+	<string name="menu_Principal_Sair">Sair</string>
+
+	<string name="layoutErro_lblTitulo">Ih! Caramba...\nTemos um problema!</string>
+	<string name="layoutErro_lblPressioneHomeParaSair">Pressione a tecla Home para fechar o aplicativo.</string>
+
+	<string name="layoutPrincipal_btnVoltar">Voltar</string>
+	<string name="layoutPrincipal_lblSelecione">Escolha a %sº parte da frase...</string>	
+
+	<string name="layoutSobre_lblMensagemDeBoasVindas">Fale tudo sem falar nada!\nComo é possível?\nO Discursation Tabajara vai mostrar como...\n</string>
+	<string name="layoutSobre_chkExibirAoIniciar">Exibir isto ao iniciar.</string>
+	<string name="layoutSobre_btnIniciar">Iniciar!</string>
+	<string name="layoutSobre_lblDescritivoDaVersao">
+		\tVocê está numa reunião ou numa conversa de negócios...
+		Você quer participar mas não sabe o que dizer?\n
+		\n
+		\tEntão, os seus problemas acabaram. Chegou o super e revolucionário
+		aplicativo Discursation Tabajara! Com ele você monta mais de 
+		10 mil combinações de frases prontas para usar.\n
+		\n
+		\tÉ lógico que trata-se de uma brincadeira, mas é divertido e ao mesmo
+		tempo incrível ver as combinações de frases que se formam. Como elas
+		dizem tudo sem dizer nada.\n
+		\n
+		\tEspero que gostem.\n
+		\tAbraços, Sergio
+		Cabral.    	
+   	</string>
+
+	<string name="erro_CaminhoDosDadosEConfiguracaoNaoEstaAcessivel">
+		\tO caminho onde os dados e as configurações são gravados (%s) não está acessível no momento.\n
+		\n
+		\tTalvez o aparelho esteja conectado ao computador e o armazenamento em massa USB esteja ativado. 
+		Se este for o caso, desative o armazenamento em massa USB.
+	</string>
+
+	<color name="LayoutEscuro_Titulo">#FFE1E7F3</color>
+	<color name="LayoutEscuro_Texto">#BBE1E7F3</color>
+	<color name="LayoutEscuro_TextoDestacado">#FFFF8000</color>
+	<color name="LayoutEscuro_TextoSemDestaque">#88E1E7F3</color>
+	<color name="LayoutClaro_Titulo">#FF004080</color>
+	<color name="LayoutClaro_Texto">#BB004080</color>
+	<color name="LayoutClaro_TextoDestacado">#FFFF0000</color>
+	<color name="LayoutClaro_TextoSemDestaque">#88004080</color>
+
+	<dimen name="BordaGeral">10dp</dimen>
+	<dimen name="ExtraGrande">28dp</dimen>
+	<dimen name="Titulo">22dp</dimen>
+	<dimen name="SubTitulo">20dp</dimen>
+	<dimen name="Texto">18dp</dimen>
+	<dimen name="TextoPequeno">16dp</dimen>
+
+</resources>

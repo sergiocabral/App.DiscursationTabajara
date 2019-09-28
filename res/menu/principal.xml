@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+    android:id="@+id/menuPrincipalSobre"
+    android:title="@string/menu_Principal_Sobre"
+    android:icon="@drawable/menu_principal_sobre" />
+    <item 
+    android:id="@+id/menuPrincipalSair"
+    android:title="@string/menu_Principal_Sair"
+    android:icon="@drawable/menu_principal_sair" />
+</menu>
